@@ -1,8 +1,8 @@
 # NGINX Module
 
-James Fryman <james@frymanet.com>
-
 This module manages NGINX from within Puppet.
+This is a fork of https://github.com/jfryman/puppet-nginx 
+
 
 # Quick Start
 
