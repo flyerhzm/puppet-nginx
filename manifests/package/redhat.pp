@@ -14,7 +14,7 @@
 #
 # This class file is not called directly
 class nginx::package::redhat {
-  $redhat_packages = ['nginx', 'GeoIP', 'gd', 'libXpm', 'libxslt']
+  $redhat_packages = ['nginx', 'GeoIP', 'gd', 'libXpm']
 
   if downcase($::operatingsystem) == 'redhat' {
     $os_type = 'rhel'
